@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans:wght@500&family=Poppins&display=swap" );
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body{
+  
+    position: absolute;
+    width: 1920px;
+    height: 745px;
+    /* width: 100%;
+    height: 100vh; */
+    left: 0px;
+    top: 84px;
+    justify-content: center;
+    align-items: center;
+     background:  #F6F9FB;
+}
+/* navbar */
+
+.message{
+    text-align: center;
+    color:#202020;
+}
+/* invoice nav logo */
+.logo{
+    position: absolute;
+    left: 21.09%;
+    right: 72.34%;
+    top: 38.1%;
+    bottom: 39.29%;
+    text-shadow: purple;
+     text-transform: uppercase;
+    text-decoration: #0070BA;
+    
+}
+.form-group label::before {
+    content: "*";
+    color: black;
+    float:right;
+  }
+
+.navbar.nav-link{
+  
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+}
+.loginform{
+position: absolute;
+width: 754px;
+height: 389px;
+left: 585px;
+top: 194px;
+}
+
+.container-fluid{ 
+position: absolute;
+width: 1920px;
+height: 745px;
+left: 0px;
+top: 84px;
+background: #F6F9FB;
+}
+
+.title span{
+position: absolute;
+text-align: center;
+margin-bottom: 40px;
+width: 89px;
+height: 39px;
+right: 960px;
+top: 109px;
+font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 39.45px;
+letter-spacing: 0.04em;
+color: #064D95;
+}
+
+/* medias */
+
+@media (max-width: 575.98px)
+ { 
+
+  }
+
+
+@media (max-width: 767.98px) { 
+
+ }
+
+@media (max-width: 991.98px) { 
+
+ }
+
+
+@media (max-width: 1199.98px) { 
+
+}
+@media (max-width: 1399.98px) { 
+
+ }
+
+.login{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+right: 581px;
+background: #0070BA;
+border: 1px solid #C4C4C4;
+text-decoration: white;
+border-radius: 5px;
+color: whitesmoke;
+width: 754px;
+height: 42px;
+
+}
+.login :hover{
+    background-color: #2d7ccc;
+      transition: 0.7s;
+      
+    }
+#email{
+    background: #FFFFFF;
+border: 1px solid #C4C4C4;
+border-radius: 5px;
+width: 754px;
+height: 42px;
+display: block;
+font-weight: 500;
+box-sizing: border-box;
+}
+#password{
+    
+box-sizing: border-box;
+background: #FFFFFF;
+border: 1px solid #C4C4C4;
+border-radius: 5px;
+width: 754px;
+height: 42px;
+display: block;
+}
+/* for social media */
+
+.btn{
+    box-sizing: border-box;
+background: #FFFFFF;
+width: 754px;
+height: 42px;
+display: block;
+border-radius: 4px;
+line-height: 21px;
+    font-size: 14px;
+    color: #202020;
+    font-weight: 400;
+    border: none;
+    font-weight: 700;
+    outline: none;
+    margin-left: 20px;
+    border: 0.5px solid #C4C4C4;
+    cursor: pointer;
+    transition: opacity .3s linear;
+  }
+  
+  .btn:hover{
+    opacity: .7;
+  }
+  h6{
+    text-align: center;
+  }
+  /* .google btn{
+    font-weight: 400;
+    font-size: 14px;
+    color:#202020;
+  } */
+.fab{
+  flex: none;
+order: 0;
+flex-grow: 0;
+color: #0070BA;
+}
+
+  
+  
+  
